@@ -14,7 +14,6 @@ namespace IsWellFormated
                 var input = Console.ReadLine();
                 if (!string.IsNullOrWhiteSpace(input)) 
                 Console.WriteLine($"Wellformated: {IsWellFormated(input)}");
-
             } while (true);
         }
 
